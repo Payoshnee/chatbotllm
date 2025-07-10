@@ -25,8 +25,7 @@ autoreviewbot/
 │ ├── comment_generator.py # Formats comments
 │ ├── github_poster.py # Posts review to GitHub
 │ ├── utils.py
-│ └── config.yaml # Rule weights, LLM model config![WhatsApp Image 2025-07-10 at 21 02 30_1c356b5b](https://github.com/user-attachments/assets/6618ea47-2327-4bd5-999f-d361ba3b9cef)
-
+│ └── config.yaml 
 ├── rules/
 │ ├── guideline_ids.md # Rule IDs + descriptions
 │ └── prompt_template.txt # Reusable LLM prompt
