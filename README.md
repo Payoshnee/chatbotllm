@@ -35,10 +35,6 @@ autoreviewbot/
 ├── .github/workflows/deploy.yml
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ Setup Instructions
