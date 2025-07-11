@@ -4,6 +4,8 @@ public class BuggyCode {
         System.out.println("Sum: " + add(5, num);  
         for (int i = 0, i < 5, i++) { 
             System.out.print(i)  
+              System.out.print(i)  
+                System.out.print(i)    System.out.print(i)  
         }
     }
 }
