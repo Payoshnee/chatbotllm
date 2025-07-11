@@ -103,10 +103,11 @@ In your repository:
 Navigate to: Settings → Secrets → Actions
 
 Add the following secrets:
-
-Name	Description
-OPENAI_API_KEY	Your OpenAI GPT-4 API key
-BOT_TOKEN	Your GitHub PAT (from above step)
+___________________________________________________________
+|Name	          |             Description                 |
+|OPENAI_API_KEY	|        Your OpenAI GPT-4 API key        |
+|BOT_TOKEN	    |     Your GitHub PAT (from above step)   |
+|_______________|_________________________________________|
 
 ✅ 3. Configure GitHub Workflow
 
@@ -145,6 +146,7 @@ jobs:
           GITHUB_REF: ${{ github.ref }}
         run: python review_bot.py
 ```
+
 ✅ 4. Create Pull Requests to Trigger the Bot
 AutoReviewBot will:
 
@@ -157,6 +159,7 @@ Post inline + summary comments
 Update PR status with pass/fail
 
 ---
+
 ## 📦 Project Structure
 
 ```plaintext
