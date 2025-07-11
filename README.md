@@ -12,8 +12,7 @@
 - 💬 Posts **inline review comments** with explanation and code fix  
 - 🧾 Posts a **summary comment** on the PR  
 - 🟥 Fails the PR if **critical violations** are found  
-- 🔐 Works with **GitHub Actions** + **Personal Access Token (PAT)**  
-- 📦 Fully containerized (optional) and extensible  
+- 🔐 Works with **GitHub Actions** + **Personal Access Token (PAT)**   
 
 ---
 
